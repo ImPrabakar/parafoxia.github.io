@@ -1,0 +1,509 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC");
+
+html {
+	font-family: "IM Fell English SC", serif;
+}
+
+nav {
+	z-index: 999;
+}
+
+body#news {
+	background-color: #315f42;
+}
+
+ul.navbar {
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0;
+}
+
+.navbar li a {
+	color: white;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.25em 4vw;
+}
+
+.navbar li#logo a {
+	font-size: 1.5em;
+}
+
+.navbar a:hover { 
+    background: #C99924;
+    border: none;
+}
+
+section {
+	position: absolute;
+	left: 0;
+	margin: 0 0;
+}
+
+section h1 {
+	position: absolute;
+	margin: 0 0;
+	top: 3vw;
+	left: 5vw;
+	font-size: 5em;
+}
+
+section#home {
+	background: url("../assets/splash.jpg");
+	background-size: cover;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+section#home table {
+	position: absolute;
+	top: 32vh;
+	left: 20vw;
+}
+
+section#home img {
+	/*margin: 15em 6em;*/
+	width: 40vh;
+	height: 40vh;
+	padding-right: 1em;
+}
+
+section#home p#top {
+	font-size: 3.5em;
+	color: #ffffff;
+}
+
+section#home p#bottom {
+	font-size: 3em;
+	color: #ffffff;
+}
+
+section#home a {
+	color: #ffffff;
+}
+
+section#bio {
+	background: url("../assets/bio.jpg");
+	background-size: cover;
+	top: 50vw;
+	width: 100vw;
+	height: 100vh;
+}
+
+section#bio h1 {
+	color: #315f42;
+}
+
+section#bio img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+section#bio p {
+	color: #315f42;
+}
+
+section#bio p#factone {
+	position: absolute;
+	left: 25vw;
+	top: 23vh;
+	font-size: 2em;
+	text-align: right;
+}
+
+section#bio p#facttwo {
+	position: absolute;
+	left: 65vw;
+	top: 6vh;
+	font-size: 2em;
+	text-align: left;
+}
+
+section#bio p#factthree {
+	position: absolute;
+	left: 43vw;
+	top: 55vh;
+	font-size: 2em;
+	text-align: left;
+}
+
+section#bio p#factfour {
+	position: absolute;
+	left: 13vw;
+	top: 75vh;
+	font-size: 2em;
+	text-align: right;
+}
+
+section#music {
+	background: url("../assets/music.jpg");
+	background-size: cover;
+	top: 100vw;
+	width: 100vw;
+	height: 100vh;
+}
+
+section#music h1 {
+	color: #ffffff;
+}
+
+section#music h2 {
+	color: #ffffff;
+	font-size: 2.5em;
+	text-align: center;
+	margin: 18.5vh auto;
+}
+
+section#music img {
+	height: 20vw;
+	width: 20vw;
+	position: absolute;
+	top: 27.5vh;
+}
+
+section#music img#ff {
+	left: 5vw;
+}
+
+section#music img#hb {
+	left: 40vw;
+}
+
+section#music img#cu {
+	left: 75vw;
+}
+
+section#music h3 {
+	font-size: 2.5em;
+	color: #ffffff;
+	display: inline-block;
+	margin-top: 24vh;
+	text-align: center;
+}
+
+section#music h3#ff {
+	margin-left: 9vw;
+}
+
+section#music h3#hb {
+	margin-left: 20vw;
+}
+
+section#music h3#cu {
+	margin-left: 22vw;
+}
+
+section#music p {
+	color: #ffffff;
+	display: inline-block;
+	margin-top: -3vh;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+section#music p#ff {
+	margin-left: 6vw;
+}
+
+section#music p#hb {
+	margin-left: 14.5vw;
+}
+
+section#music p#cu {
+	margin-left: 14.5vw;
+}
+
+section#merch {
+	background: url("../assets/merch.jpg");
+	background-size: cover;
+	top: 150vw;
+	width: 100vw;
+	height: 100vh;
+}
+
+section#merch h1 {
+	color: #c99924;
+}
+
+section#merch img#circles {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+section#merch img#shop {
+	position: absolute;
+	left: 12vw;
+	top: 21vh;
+}
+
+section#merch p {
+	color: #c99924;
+	font-size: 2.5em;
+	text-align: center;
+	margin: 87.5vh auto;
+}
+
+section#merch a {
+	text-decoration: none;
+}
+
+section#contact {
+	background-color: #382918;
+	top: 200vw;
+	width: 100vw;
+	height: 100vh;
+}
+
+section#contact h1 {
+	color: #ffffff;
+}
+
+section#contact p {
+	color: #ffffff;
+}
+
+section#contact table {
+	font-size: 2em;
+	position: absolute;
+	top: 25vh;
+	left: 30vw;
+}
+
+section#contact table p {
+	text-align: right;
+}
+
+section#contact table td {
+	padding-right: 5vw;
+}
+
+section#contact table td input {
+	display: block;
+	width: 20vw;
+	padding: 0.375em 0.75em;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #ffffff;
+	background-color: #382918;
+	border: 2px solid #ffffff;
+	border-radius: 0.25rem;
+	resize: vertical;
+}
+
+section#contact table td input#message {
+	height: 20vh;
+}
+
+section#contact button {
+	display: block;
+	padding: 0.375em 0.75em;
+	color: #c99924;
+	border: 2px solid #382918;
+	font-size: 2.5em;
+	background-color: #382918;
+	position: absolute;
+	top: 85vh;
+	left: 30vw;
+	/* The font doesn't work unless this line is here */
+	font-family: "IM Fell English SC", serif;
+}
+
+section#contact button:hover {
+	border: 2px solid #c99924;
+}
+
+section#news {
+	top: 0;
+	width: 100vw;
+}
+
+section#news h1 {
+	position: absolute;
+	color: #ffffff;
+	top: 15vh;
+	left: 43vw;
+}
+
+section#news h2 {
+	font-size: 2em;
+	text-decoration: bold;
+	color: #ffffff;
+	margin: 1vh 0;
+}
+
+section#news h3 {
+	font-size: 1.75em;
+	text-decoration: italic;
+	color: #ffffff;
+	margin: 1vh 0;
+}
+
+section#news p {
+	font-size: 1.5em;
+	color: #ffffff;
+	margin: 1vh 0;
+}
+
+section#news h2:nth-of-type(odd) {
+	width: 50vw;
+	text-align: right;
+}
+
+section#news h2:nth-of-type(even) {
+	width: 50vw;
+	text-align: left;
+	margin-left: 50vw;
+}
+
+section#news h2:nth-of-type(1) {
+	margin-top: 30vh;
+}
+
+section#news h3:nth-of-type(odd) {
+	width: 50vw;
+	text-align: right;
+}
+
+section#news h3:nth-of-type(even) {
+	width: 50vw;
+	text-align: left;
+	margin-left: 50vw;
+}
+
+section#news p:nth-of-type(odd) {
+	width: 50vw;
+	text-align: right;
+}
+
+section#news p:nth-of-type(even) {
+	width: 50vw;
+	text-align: left;
+	margin-left: 50vw;
+}
+
+section#news a {
+	color: #ffffff
+}
+
+section#album {
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+section#album audio {
+	display: block;
+	margin-top: 50px;
+	color: #ffffff;
+}
+
+section#shop {
+	background-color: #282828;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 75vw;
+	height: 200vh;
+}
+
+section#shop table {
+	margin-top: 7.5vh;
+}
+
+section#shop table td {
+	width: 25vw;
+}
+
+section#shop p {
+	color: #c99924;
+	font-size: 1.75em;
+	text-align: center;
+	margin: 0 0;
+}
+
+section#shop p#mcs {
+	font-size: 3.5em;
+}
+
+section#shop button {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	color: #282828;
+	border: 2px solid #c99924;
+	font-size: 1.5em;
+	background-color: #c99924;
+	width: 50%;
+	margin-top: 1vh;
+	/* The font doesn't work unless this line is here */
+	font-family: "IM Fell English SC", serif;
+}
+
+section#shop button:hover {
+	background-color: #b68611;
+	border: 2px solid #b68611;
+}
+
+section#shop img {
+	width: 20vw;
+	height: 20vw;
+	margin-left: 2.5vw;
+}
+
+section#shop img {
+	margin-top: 7.5vh;
+}
+
+section#cart {
+	background-color: #c99924;
+	position: absolute;
+	top: 0;
+	left: 75vw;
+	width: 25vw;
+	height: 200vh;
+}
+
+section#cart p {
+	color: #282828;
+	position: fixed;
+	font-size: 2em;
+	left: 76vw;
+}
+
+section#cart p.value {
+	font-size: 3.5em;
+}
+
+section#cart p:nth-of-type(1) {
+	top: 15vh;
+}
+
+section#cart p:nth-of-type(2) {
+	top: 17vh;
+}
+
+section#cart p:nth-of-type(3) {
+	top: 27vh;
+}
+
+section#cart p:nth-of-type(4) {
+	top: 29vh;
+}
